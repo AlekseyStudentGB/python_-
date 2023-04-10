@@ -17,7 +17,7 @@ bilet_num = input('Введите номер билета -> ')
 
 # С циклом
 bilet_len = len(bilet_num)
-# print(bilet_len)
+
 i = 0
 right = 0
 left = 0
@@ -34,9 +34,7 @@ while i < bilet_len :
             right += int(bilet_num[i])
             i += 1
         elif i == bilet_len // 2:
-            # print(i)
             i += 1
-            # print(i)
         else: 
             left += int(bilet_num[i])
             i += 1
