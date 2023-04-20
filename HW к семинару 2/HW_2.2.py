@@ -8,7 +8,7 @@ sum = int(input('Введите сумму чисел -> '))
 multiplication = int(input('Введите произведение чисел -> '))
 """
 i = 1
-while i < 1001:
+while i < sum+1:
     if sum - i == multiplication / i:
         print(f"первое число = {i}, второе число = {sum - i}")
         break
